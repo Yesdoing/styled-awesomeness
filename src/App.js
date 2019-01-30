@@ -13,6 +13,9 @@ const Container = styled.div`
   width: 100%;
   height: 100vh;
   background-color: pink;
+  ${Card} {
+    background-color: blue;
+  }
 `;
 
 const Card = styled.div`
